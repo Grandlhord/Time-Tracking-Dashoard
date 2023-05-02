@@ -2,8 +2,45 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color:hsl(226, 43%, 10%) ;
+    background-color:hsl(226, 43%, 10%);
 }
+
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    column-gap: 1.5rem;
+    
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(1, 9rem);
+    grid-template-rows: repeat(1, 21rem);
+    grid-gap: 3rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.box13 {
+    grid-row: 1;
+    grid-column: 1;
+    background-color:  hsl(235, 46%, 20%);
+    border-radius: 1rem 1rem 1rem 1rem ;
+    margin-top: 16px;
+    
+  }
+  
+  .box14 {
+    height: 15.5rem;
+    grid-row: 1;
+    grid-column: 1;
+    background-color:hsl(246, 80%, 60%);
+    margin-top: -1rem;
+    z-index: 2;
+    border-radius: .8rem 1rem 1rem 1rem ;
+  }
 
 
   .grid-container {
@@ -13,14 +50,16 @@
     grid-gap: 3rem;
     margin-top: 10rem;
     justify-content: center;
+
   }
-  
+
   .box1 {
     grid-row: 1;
     grid-column: 1;
     background-color:  hsl(235, 46%, 20%);
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
     
   }
   
@@ -37,7 +76,8 @@
     grid-column: 2;
     background-color:hsl(235, 46%, 20%);
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
   }
   
   .box4 {
@@ -53,7 +93,8 @@
     grid-column: 3;
     background-color: hsl(235, 46%, 20%);;
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
   }
   
   .box6 {
@@ -69,7 +110,8 @@
     grid-column: 1;
     background-color: hsl(235, 46%, 20%);;
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
     
   }
   
@@ -86,7 +128,8 @@
     grid-column: 2;
     background-color: hsl(235, 46%, 20%);;
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
   }
   
   .box10 {
@@ -102,7 +145,8 @@
     grid-column: 3;
     background-color: hsl(235, 46%, 20%);;
     z-index: 2;
-    border-radius: 1rem 1rem 1rem 1rem ;
+    border-radius: .7rem .7rem 1rem 1rem ;
+    margin-top: 16px;
   }
   
   .box12 {
