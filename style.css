@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:hsl(226, 43%, 10%) ;
+}
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 9rem);
+    grid-template-rows: repeat(2, 9rem);
+    grid-gap: 3rem;
+    margin-top: 10rem;
+    justify-content: center;
+  }
+  
+  .box1 {
+    grid-row: 1;
+    grid-column: 1;
+    background-color:  hsl(235, 46%, 20%);
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+    
+  }
+  
+  .box2 {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: hsl(15, 100%, 70%);
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 6rem 6rem ;
+  }
+  
+  .box3 {
+    grid-row: 1;
+    grid-column: 2;
+    background-color:hsl(235, 46%, 20%);
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+  }
+  
+  .box4 {
+    grid-row: 1;
+    grid-column: 2;
+    background-color: hsl(195, 74%, 62%);
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 6rem 6rem ;
+  }
+  
+  .box5 {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: hsl(235, 46%, 20%);;
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+  }
+  
+  .box6 {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: hsl(348, 100%, 68%);
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 6rem 6rem ;
+  }
+  
+  .box7 {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: hsl(235, 46%, 20%);;
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+    
+  }
+  
+  .box8 {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: hsl(145, 58%, 55%);
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 6rem 6rem ;
+  }
+  
+  .box9 {
+    grid-row: 2;
+    grid-column: 2;
+    background-color: hsl(235, 46%, 20%);;
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+  }
+  
+  .box10 {
+    grid-row: 2;
+    grid-column: 2;
+    background-color:hsl(264, 64%, 52%);
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 6rem 6rem ;
+  }
+  
+  .box11 {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: hsl(235, 46%, 20%);;
+    z-index: 2;
+    border-radius: 1rem 1rem 1rem 1rem ;
+  }
+  
+  .box12 {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 1rem 1rem 6rem 6rem ;
+    margin-top: -1rem;
+  }
+  
