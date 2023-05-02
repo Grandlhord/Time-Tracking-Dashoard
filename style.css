@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+    font-family: 'Rubik', sans-serif;
     background-color:hsl(226, 43%, 10%);
 }
 
@@ -156,3 +159,119 @@
     margin-top: -1rem;
   }
   
+  .box2 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box4 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box6 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box8 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box10 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box12 img {
+    position: relative;
+    left: 90px;
+    background: transparent;
+}
+
+.box14 img {
+    position: relative;
+    left:13px;
+    top: 20px;
+    background: transparent;
+}
+
+.box-title{
+    justify-content: space-between;
+    display: flex;
+    background: transparent;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 11px;
+}
+
+.box-title span:nth-child(1),:nth-child(2){
+    color: #fff;
+    }
+.box-title img{
+    cursor: pointer;
+}
+
+.box-content{
+    background: transparent;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.report{
+    background-color: transparent;
+    font-size: 10px;
+    text-decoration: transparent;
+    font-weight: lighter;
+}
+
+.name1,.name2 {
+    font-size: 24px;
+    background-color: transparent;
+}
+
+.period {
+    font-size: 12px;
+    padding-top: 14.6rem;
+    background-color: transparent;
+    padding-left: 17px;
+    font-weight: lighter;
+    cursor: pointer;
+  
+}
+
+.daily, .weekly, .monthly{
+    background-color: transparent;
+}
+
+.weekly{
+    margin-top: .5rem;
+}
+
+.monthly {
+    margin-top: .5rem;
+}
+
+.box-content, .hrs, .time {
+    padding-top: 5px;
+    margin-top: .5rem;
+    background-color: transparent;
+}
+
+.hrs{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.time{
+    font-size: 12px;
+    margin-top: 0.1rem;
+    font-weight: lighter;
+}
