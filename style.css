@@ -219,6 +219,12 @@
     cursor: pointer;
 }
 
+.box-content1{
+  background: transparent;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
 .box-content{
     background: transparent;
     padding-left: 10px;
